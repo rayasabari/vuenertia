@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Playfair";
+    font-weight: 400;
+    src: url("../../public/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Playfair";
+    font-weight: 400;
+    font-style: italic;;
+    src: url("../../public/fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Rusian";
+    font-weight: 400;
+    font-style: italic;;
+    src: url("../../public/fonts/RuslanDisplay-Regular.ttf") format("truetype");
+  }
+}
